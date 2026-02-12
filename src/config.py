@@ -13,3 +13,7 @@ TARGET_COLUMN = "target_variable_name" # CHANGE THIS
 
 # --- RANDOM SEED ---
 RANDOM_STATE = 42
+
+# --- MODEL SELECTION ---
+MODEL_NAME = "random_forest"  # "random_forest", "logistic_regression", "svm", "xgboost" (classification); "linear_regression" (regression)
+TASK_TYPE = "classification"  # "classification", "regression"
